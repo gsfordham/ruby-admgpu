@@ -15,5 +15,5 @@ I haven't yet made a gem for this, because I was actually planning to rewrite it
 1) This library interacts with Linux drivers, so it uses files in the kernel's ``/sys/`` virtual filesystem, so whatever program interacts with it **MUST** be running as ``root``
 1) The output of the functions is a hash, so you should be prepared to work with a Ruby hash, whether you use it raw or change it to something like JSON, YAML, or XML (In my case, I made a Web UI, so I used JSON)
 
-# Limiation of Liability
+# Limitation of Liability
 Yeah nah, I claim no liability. You can break your box by using it not as intendedor for the wrong cards, but I ain't fixing it or buying you a new one. Also, LGPLv3, as this is licensed, limits my liability anyway, so don't bother hiring a lawyer.
